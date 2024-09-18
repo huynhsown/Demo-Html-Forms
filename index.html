@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="nav">
+                <div><a href="#"><img src="Resourse/Images/fresh_garden.jpg" alt=""></a></div>
+                <div>
+                    <div class="search-container">
+                        <input type="text" placeholder="Tìm kiếm..." id="search-bar">
+                        <button type="submit">
+                            <i class="fas fa-search"></i> <!-- Biểu tượng tìm kiếm -->
+                        </button>
+                    </div>
+                </div>
+
+                <div class="nav-right">
+                    <div class="nav-location">
+                        <a href="https://maps.app.goo.gl/K5CBoNYBvk51EiAj6" target="_blank">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>01 Võ Văn Ngân</h4>
+                        </a>
+                    </div>
+                    <div class="nav-contact">
+                        <a href="http://zaloapp.com/qr/p/75jccbf0nl5d" target="_blank">
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>0812496730</h4>
+                        </a>
+                    </div>
+    
+                    <div class="nav-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="separate-line"></div>
+        <div id="option">
+            <div class="row-option">
+                <div class="col-1-option">
+                    <div class="category-cropdown">
+                        <i class="fa-solid fa-list"></i>
+                        <h4>Danh mục</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="https://tools.dalathasfarm.com/assets/_file/2021/2021-06/Hoa_chau_thiet_ke.png" alt="">
+                                <h5>Hoa Chậu Thiết Kế</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="https://shop.dalathasfarm.com/public/dalathasfarm/images/flower-1.svg" alt="">
+                                <h5>Bình Hoa</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="https://tools.dalathasfarm.com/assets/_file/2021/2021-06/Hoa_xinh_gia_tot1.png" alt="">
+                                <h5>Hoa Xinh Giá Tốt</h5>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-2-option">
+                    <div class="best-seller">
+                        <img src="https://tools.dalathasfarm.com/assets/_file/2024/2024-01/bss1f1.png" alt="">
+                        <h4>Bán chạy</h4>
+                    </div>
+                    <div class="delivery">
+                        <img style="width: 24px; height: 24px;" src="https://tools.dalathasfarm.com/assets/_file/2021/2021-11/Untitled-1_(2).png" alt="">
+                        <h4>Giao hàng nhanh trong 2h</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="wrap-content">
+            <div class="advertising-photo">
+                <img src="https://tools.dalathasfarm.com/assets/_file/2023/2023-03/Banner-Web7.png" alt="">
+            </div>
+
+            <div class="job-application">
+                <div class="job-header">
+                    <p>Đơn Xin Việc</p>
+                </div>
+
+                <div class="index">
+                    <p>Thông tin cá nhân</p>
+                </div>
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Họ và tên</span>
+                        <span class="important">*</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Họ" class="two-elements">
+                        <input type="text" placeholder="Tên" class="two-elements">
+                    </div>
+                </div>
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Ngày sinh</span>
+                        <span class="important">*</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="date" class="one-element">
+                    </div>
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Giới tính</span>
+                        <span class="important">*</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Nam</label>
+                    
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Nữ</label>
+                    </div>
+                    
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Bằng cấp</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <select id="mySelect" name="options" class="one-element">
+                            <option value="option5">Không</option>
+                            <option value="option1">Đại học</option>
+                            <option value="option2">Cấp 3</option>
+                            <option value="option3">Cấp 2</option>
+                            <option value="option4">Cấp 1</option>
+                        </select>
+                    </div>                    
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>CV</span>
+                        <span class="important">*</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="file" class="one-element" accept=".pdf">
+                    </div>                    
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Địa chỉ</span>
+                        <span class="important">*</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Địa chỉ" class="one-element">
+                    </div>                    
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Email</span>
+                        <span class="important">*</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Email" class="one-element">
+                    </div>                    
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Số điện thoại</span>
+                        <span class="important">*</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Số điện thoại" class="one-element">
+                    </div>                    
+                </div>
+
+                <div class="index">
+                    <p>Công việc trước đây hoặc hiện tại</p>
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Tên công ty</span>
+                    </div>
+                
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Tên công ty" class="one-element">
+                    </div>                    
+                </div>
+                
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Ngày gia nhập</span>
+                    </div>
+                
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="date" placeholder="Ngày gia nhập" class="one-element">
+                    </div>                    
+                </div>
+                
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Ngày rời đi</span>
+                    </div>
+                
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="date" placeholder="Ngày rời đi" class="one-element">
+                    </div>                    
+                </div>
+                
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Vị trí</span>
+                    </div>
+                
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Vị trí" class="one-element">
+                    </div>                    
+                </div>
+                
+                
+                <div class="index">
+                    <p>Cách liên hệ khác #1</p>
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Họ và tên</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Họ" class="two-elements">
+                        <input type="text" placeholder="Tên" class="two-elements">
+                    </div>
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Email</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Email" class="one-element">
+                    </div>                    
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Số điện thoại</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Số điện thoại" class="one-element">
+                    </div>                    
+                </div>
+
+                
+                <div class="index">
+                    <p>Cách liên hệ khác #2</p>
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Họ và tên</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Họ" class="two-elements">
+                        <input type="text" placeholder="Tên" class="two-elements">
+                    </div>
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Email</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Email" class="one-element">
+                    </div>                    
+                </div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span>Số điện thoại</span>
+                    </div>
+
+                    <div class="col-2-tempFrmWrapper">
+                        <input type="text" placeholder="Số điện thoại" class="one-element">
+                    </div>                    
+                </div>
+
+                <div class="index"></div>
+
+                <div class="tempFrmWrapper">
+                    <div class="col-1-tempFrmWrapper">
+                        <span> <span class="important">*</span>: Bắt buộc phải nhập.</span>
+                    </div>                
+                </div>
+
+                <div class="index"></div>
+
+                <div class="apply">
+                    <button class="btn-apply">Ứng tuyển</button>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="foot-note">
+                <p>© All rights reserved by Son Dang</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

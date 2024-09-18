@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main, #header, #wrap-content {
+    width: 100%;
+    background-color: #fff;
+}
+
+#header {
+    height: 62px;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#nav img {
+    width: 150px;
+    height: auto;
+}
+
+#nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.search-container {
+    display: inline-flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+#search-bar, button {
+    height: 35px;
+    border: 1px solid #39ac39;
+}
+
+#search-bar {
+    padding: 0 10px;
+    border-radius: 15px 0 0 15px;
+    width: 250px;
+}
+
+button {
+    width: 50px;
+    padding: 0 10px;
+    border-radius: 0 15px 15px 0;
+    background-color: #39ac39;
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 50px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-location a, .nav-contact a, .nav-cart {
+    margin: 20px;
+    display: flex;
+}
+
+.nav-contact {
+    border-left: 2px solid #000;
+    padding: 0 10px;
+}
+
+.nav-contact a h4, .nav-location a h4 {
+    margin-left: 10px;
+}
+
+.separate-line {
+    height: 3px;
+    background: url(https://shop.dalathasfarm.com/public/dalathasfarm/images/line.png) repeat;
+}
+
+#option {
+    background-color: #fff;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: 1px solid #3e4042;
+}
+
+.row-option, .col-2-option {
+    display: flex;
+    align-items: center;
+}
+
+.col-1-option {
+    position: relative;
+    width: 200px;
+}
+
+.category-cropdown {
+    display: flex;
+    padding: 10px;
+}
+
+.category-cropdown i {
+    margin-left: 10px;
+}
+
+.category-cropdown h4 {
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+.col-1-option ul {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+
+.col-1-option ul li {
+    height: 42px;
+    border-bottom: 1px solid #3e4042;
+    width: 200px;
+    line-height: 42px;
+}
+
+.col-1-option a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
+}
+
+.col-1-option ul li:hover a {
+    background-color: #3e4042;
+    color: #fff;
+}
+
+.col-1-option:hover ul {
+    display: block;
+    z-index: 999;
+}
+
+.best-seller, .delivery {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.best-seller h4, .delivery h4 {
+    margin-left: 10px;
+}
+
+.job-application {
+    width: 55%;
+    margin: 15px auto;
+    border: 2px solid #efefef;
+    border-radius: 15px;
+}
+
+.job-header {
+    height: 60px;
+    background-color: #39ac39;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 15px 15px 0 0;
+}
+
+.job-header p {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.index {
+    height: 50px;
+    margin: 20px;
+    line-height: 50px;
+    border-bottom: 2px dashed #39ac39;
+}
+
+.index p {
+    color: #39ac39;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.important {
+    color: red;
+}
+
+.tempFrmWrapper {
+    padding: 10px 0;
+    margin: 15px 20px;
+    display: flex;
+}
+
+.col-1-tempFrmWrapper {
+    width: 35%;
+}
+
+.col-1-tempFrmWrapper span {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.col-2-tempFrmWrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.two-elements, .one-element {
+    padding: 6px;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.two-elements {
+    width: 49%;
+}
+
+.one-element {
+    width: 100%;
+}
+
+#male, #female {
+    margin: 0 10px;
+}
+
+.apply {
+    padding: 10px 0;
+    margin: 15px 20px;
+    text-align: center;
+}
+
+.btn-apply {
+    width: auto;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+.advertising-photo {
+    width: 95%;
+    background-color: #fff;
+    margin: 15px auto;
+    position: relative;
+}
+
+.advertising-photo img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    color: #fff;
+}
+
+
+#footer {
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    background-color: #39ac39;
+    justify-content: center;
+}
+
+.foot-note {
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
